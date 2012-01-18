@@ -7,17 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\advntur.xnb</Output>
+      <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\advntur.xnb</Output>
       <Time>2012-01-16T19:28:34.6116+00:00</Time>
-    </Item>
-    <Item>
-      <Source>sprites\TestFont.spritefont</Source>
-      <Name>sprites\TestFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\TestFont.xnb</Output>
-      <Time>2012-01-17T00:59:12.5156+00:00</Time>
     </Item>
     <Item>
       <Source>sprites\healthbar.png</Source>
@@ -25,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar.xnb</Output>
+      <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar.xnb</Output>
       <Time>2012-01-16T20:40:41.0896+00:00</Time>
     </Item>
     <Item>
@@ -34,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar_out.xnb</Output>
+      <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar_out.xnb</Output>
       <Time>2012-01-16T20:40:16.8306+00:00</Time>
     </Item>
     <Item>
@@ -43,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\staminabar.xnb</Output>
+      <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\staminabar.xnb</Output>
       <Time>2012-01-16T21:29:01.9106+00:00</Time>
     </Item>
     <Item>
@@ -52,8 +43,17 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\spritesheet.xnb</Output>
+      <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\spritesheet.xnb</Output>
       <Time>2012-01-17T00:26:04.2196+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\TestFont.spritefont</Source>
+      <Name>sprites\TestFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\TestFont.xnb</Output>
+      <Time>2012-01-17T00:59:12.5156+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -61,10 +61,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\KillitContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\KillitContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Archelaus\C#\Reax\Killit\KillitContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Archelaus\C#\Reax\Killit\Killit\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Archelaus\C#\Reax\Killit\KillitContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

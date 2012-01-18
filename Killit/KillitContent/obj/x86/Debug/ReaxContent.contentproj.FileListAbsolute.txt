@@ -1,1 +1,2 @@
 C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\KillitContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Archelaus\C#\Reax\Killit\KillitContent\obj\x86\Debug\ResolveAssemblyReference.cache
