@@ -12,7 +12,6 @@ using Microsoft.Xna.Framework.Media;
 
 namespace Reax {
     class Entities {
-        // FUCK DA POLICE
         
         public List<LivingEntity> itemsList = new List<LivingEntity>();
         Game1 game;
