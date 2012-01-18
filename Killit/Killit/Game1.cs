@@ -22,6 +22,7 @@ namespace Reax {
 
         public HUD hud;
         public Entities entities;
+        public Projectiles projectiles;
 
         public spriteLib spriteLibrary = new spriteLib();
         public Game1() {
@@ -29,6 +30,7 @@ namespace Reax {
             Content.RootDirectory = "Content";
             hud = new HUD(this);
             entities = new Entities(this);
+            projectiles = new Projectiles(this);
         }
 
         /// <summary>
@@ -83,6 +85,9 @@ namespace Reax {
             foreach (LivingEntity i in entities.itemsList.ToList()) {
                 i.Update();
             }
+            foreach (Projectile p in projectiles.itemsList.ToList()) {
+                p.Update();
+            }
             hud.Update();
             base.Update(gameTime);
         }
@@ -97,11 +102,13 @@ namespace Reax {
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             foreach (LivingEntity i in entities.itemsList) {
-                if (i.alive == true) {
-                    i.Draw(spriteBatch);
-                }
+                i.Draw(spriteBatch);
+            }
+            foreach (Projectile p in projectiles.itemsList.ToList()) {
+                p.Draw(spriteBatch);
             }
             hud.Draw(spriteBatch);
+            spriteBatch.DrawString(spriteFont, projectiles.itemsList.Count.ToString(), new Vector2(0, 0), Color.Black);
             spriteBatch.End();
             base.Draw(gameTime);
         }

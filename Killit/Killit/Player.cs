@@ -71,7 +71,9 @@ namespace Reax {
                 stamina += 0.5f;
             }
             if (mouse.LeftButton == ButtonState.Pressed) {
-                game.entities.addItem(new Player(new Vector2(0, 0), game));
+                Projectile p;
+                game.projectiles.addItem(p = new Projectile(0.01f, rotation, 10, this, position, "advntur"));
+                p.loadContent(game.Content);
             }
 
             // Movement End
@@ -79,6 +81,11 @@ namespace Reax {
             previousKeyboard = keyboard;
 
             base.Update();
+        }
+
+        public override void loadContent(ContentManager content) {
+            base.loadContent(content);
+
         }
 
 

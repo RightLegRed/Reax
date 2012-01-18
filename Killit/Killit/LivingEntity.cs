@@ -26,8 +26,6 @@ namespace Reax {
         public int drawPX = 30;
         public int drawPY = 0;
         public Boolean alive = true;
-        public string sFileName = "spritesheet";
-        public BoundingBox boundingBox;
         public Game1 game;
 
         public Texture2D spriteIndex;
@@ -40,13 +38,18 @@ namespace Reax {
         }
 
         public virtual void loadContent(ContentManager content) {
-            spriteIndex = content.Load<Texture2D>("Sprites\\" + sFileName);
+            spriteIndex = content.Load<Texture2D>("Sprites\\" + "spritesheet");
+            if (spriteIndex != null) {
+                Console.WriteLine("Null here!");
+                return;
+            }
         }
 
         public virtual void Update() {
         }
 
         public virtual void Draw(SpriteBatch spriteBatch) {
+            if (spriteIndex == null) return;
             Rectangle size = new Rectangle(0, 0, 32, 32);
             Texture2D newCropped = game.spriteLibrary.Crop(spriteIndex, new Rectangle(drawPX, drawPY, drawX, drawY));
             Vector2 center = new Vector2(newCropped.Width / 2, newCropped.Height / 2);

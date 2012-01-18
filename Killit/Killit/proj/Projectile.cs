@@ -33,7 +33,7 @@ namespace Reax {
             this.direction = direction;
             this.damage = damage;
             this.shooter = shooter;
-            this.originPosition = originPosition;
+            this.position = originPosition;
             this.projectileName = projectileName;
 
         }
@@ -59,5 +59,8 @@ namespace Reax {
             position.Y += pix * (float)newY;
         }
 
+        public String getProjectileName() {
+            return projectileName;
+        }
     }
 }

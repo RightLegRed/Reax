@@ -126,6 +126,7 @@
     <Compile Include="LivingEntity.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="proj\Projectile.cs" />
+    <Compile Include="proj\Projectiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />

@@ -93,14 +93,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Killit.exe" size="16384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Killit.exe" size="17408">
       <assemblyIdentity name="Killit" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>XTpFv4R0BnFEXryB/89lNTBmpJ8=</dsig:DigestValue>
+        <dsig:DigestValue>/JLpn8xpBA5eGVcnfcTB0SAu0eg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
