@@ -1,0 +1,16 @@
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Killit.exe
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Killit.pdb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\obj\x86\Debug\Killit.exe
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\obj\x86\Debug\Killit.pdb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\advntur.xnb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\TestFont.xnb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar.xnb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar_out.xnb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\staminabar.xnb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Killit.exe.manifest
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Killit.application
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\obj\x86\Debug\Killit.exe.manifest
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\obj\x86\Debug\Killit.application
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\spritesheet.xnb

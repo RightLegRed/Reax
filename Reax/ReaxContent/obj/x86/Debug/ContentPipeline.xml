@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>sprites\advntur.png</Source>
+      <Name>sprites\advntur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\advntur.xnb</Output>
+      <Time>2012-01-16T19:28:34.6116+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\TestFont.spritefont</Source>
+      <Name>sprites\TestFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\TestFont.xnb</Output>
+      <Time>2012-01-17T00:59:12.5156+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\healthbar.png</Source>
+      <Name>sprites\healthbar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar.xnb</Output>
+      <Time>2012-01-16T20:40:41.0896+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\healthbar_out.png</Source>
+      <Name>sprites\healthbar_out</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\healthbar_out.xnb</Output>
+      <Time>2012-01-16T20:40:16.8306+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\staminabar.png</Source>
+      <Name>sprites\staminabar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\staminabar.xnb</Output>
+      <Time>2012-01-16T21:29:01.9106+00:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\spritesheet.png</Source>
+      <Name>sprites\spritesheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\sprites\spritesheet.xnb</Output>
+      <Time>2012-01-17T00:26:04.2196+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\KillitContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\KillitContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Killit\Killit\Killit\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-01-02T21:57:11.1938+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
