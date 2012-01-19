@@ -17,6 +17,7 @@ namespace Reax {
         KeyboardState keyboard;
         KeyboardState previousKeyboard;
         MouseState mouse;
+        MouseState previousMouse;
         long previousTime = 0;
         long currentTime = 0;
         public float stamina = 100;
@@ -71,22 +72,26 @@ namespace Reax {
                 stamina += 0.5f;
             }
             if (mouse.LeftButton == ButtonState.Pressed) {
+                if (previousMouse.LeftButton == ButtonState.Pressed) {
+                    return;
+                }
                 Projectile p;
                 double angle = Math.Atan2(mouse.Y - this.position.Y, mouse.X - this.position.X) * 180 / Math.PI;
-                game.projectiles.addItem(p = new Projectile(2f, (float)angle, 10, this, position, game.getGameTime().TotalGameTime.TotalSeconds, "advntur", game));
+                game.projectiles.addItem(p = new Projectile(10f, (float)angle, 10, this, position, game.getGameTime().TotalGameTime.Seconds, "magic", game));
                 p.loadContent(game.Content);
             }
 
             // Movement End
             previousTime = System.Environment.TickCount;
             previousKeyboard = keyboard;
+            previousMouse = mouse;
 
             base.Update();
         }
 
         public override void loadContent(ContentManager content) {
             base.loadContent(content);
-
+           
         }
 
 

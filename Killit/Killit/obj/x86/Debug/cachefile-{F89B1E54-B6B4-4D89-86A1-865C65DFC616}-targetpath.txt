@@ -5,3 +5,4 @@ Content\sprites\staminabar.xnb
 Content\sprites\spritesheet.xnb
 Content\sprites\TestFont.xnb
 Content\sprites\cursor.xnb
+Content\sprites\magic.xnb

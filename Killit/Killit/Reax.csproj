@@ -124,6 +124,7 @@
     <Compile Include="HUD.cs" />
     <Compile Include="Entities.cs" />
     <Compile Include="LivingEntity.cs" />
+    <Compile Include="monsters\Monster.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="proj\Projectile.cs" />
     <Compile Include="proj\Projectiles.cs" />

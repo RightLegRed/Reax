@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
-
+using Killit.monsters;
 namespace Reax {
     class Entities {
         
@@ -22,6 +22,9 @@ namespace Reax {
 
         public void Initalize() {
             addItem(new Player(new Vector2(50, 50), game));
+            for(int i=1; i<10; i++){
+                addItem(new Monster(new Vector2(50, 10*i), game));
+            }
             
         }
 

@@ -87,7 +87,7 @@ namespace Reax {
                 i.Update();
             }
             foreach (Projectile p in projectiles.itemsList.ToList()) {
-                if (gameTime.TotalGameTime.TotalMilliseconds - p.getCreationTime() > 5000) {
+                if (p.getCreationTime() - gameTime.TotalGameTime.Seconds < -4) {
                     projectiles.removeItem(p);
                     continue;
                 }
@@ -113,7 +113,8 @@ namespace Reax {
                 p.Draw(spriteBatch);
             }
             hud.Draw(spriteBatch);
-            spriteBatch.DrawString(spriteFont, gameTime.TotalGameTime.ToString(), new Vector2(0, 0), Color.Black);
+            
+            spriteBatch.DrawString(spriteFont, projectiles.itemsList.Count.ToString(), new Vector2(0, 0), Color.Black);
             spriteBatch.End();
             base.Draw(gameTime);
         }

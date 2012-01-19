@@ -93,14 +93,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Killit.exe" size="17920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Killit.exe" size="19456">
       <assemblyIdentity name="Killit" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>S5Q/MvI0MjuH5AxFEHHx2HozxcE=</dsig:DigestValue>
+        <dsig:DigestValue>c1fkA9WjjmGRYKnIr4Ql81FOZkk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -119,7 +119,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>dsN8QBl1WZ0/b8fdaGs6uKJpztY=</dsig:DigestValue>
+      <dsig:DigestValue>BRdiSujkzXil95uVRot59mbkZ3Y=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\sprites\healthbar.xnb" size="191">
@@ -138,6 +138,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>kyElUorwAM1KNcoL5cEdQeH7jJk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\sprites\magic.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0aIv5ngLb4wG0CfPckDgir7puuE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\sprites\spritesheet.xnb" size="370875">

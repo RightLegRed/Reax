@@ -40,7 +40,7 @@ namespace Reax {
 
         public virtual void Draw(SpriteBatch spriteBatch) {
             Player player = (Player)game.getEntities().getByType(typeof(Player));
-            Rectangle cursorRec = new Rectangle(Mouse.GetState().X, Mouse.GetState().Y, 32, 32);
+            Rectangle cursorRec = new Rectangle(Mouse.GetState().X, Mouse.GetState().Y, 16, 16);
             Rectangle staminaRec = new Rectangle((int)player.position.X - 16, (int)player.position.Y - 24, (int)(0.32 * (int)player.stamina), 4);
             Rectangle healthRec = new Rectangle((int)player.position.X - 16, (int)player.position.Y - 28, (int)( (32/player.maxHealth) * (int) player.health), 4);
             Rectangle healthBarRec = new Rectangle((int)player.position.X - 16, (int)player.position.Y - 28, 32, 8);

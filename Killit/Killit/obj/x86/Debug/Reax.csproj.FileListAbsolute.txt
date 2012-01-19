@@ -31,3 +31,4 @@ C:\Users\Archelaus\C#\Reax\Killit\Killit\obj\x86\Debug\Killit.application
 C:\Users\Archelaus\C#\Reax\Killit\Killit\obj\x86\Debug\Killit.exe
 C:\Users\Archelaus\C#\Reax\Killit\Killit\obj\x86\Debug\Killit.pdb
 C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\cursor.xnb
+C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\magic.xnb

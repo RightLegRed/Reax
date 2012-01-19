@@ -27,6 +27,7 @@ namespace Reax {
         public int drawPY = 0;
         public Boolean alive = true;
         public Game1 game;
+        public Vector2 center;
 
         public Texture2D spriteIndex;
 
@@ -39,20 +40,19 @@ namespace Reax {
 
         public virtual void loadContent(ContentManager content) {
             spriteIndex = content.Load<Texture2D>("Sprites\\" + "spritesheet");
-            if (spriteIndex != null) {
-                Console.WriteLine("Null here!");
-                return;
-            }
         }
 
         public virtual void Update() {
+            if (health < 100) {
+                game.entities.removeItem(this);
+            }
         }
 
         public virtual void Draw(SpriteBatch spriteBatch) {
             if (spriteIndex == null) return;
             Rectangle size = new Rectangle(0, 0, 32, 32);
             Texture2D newCropped = game.spriteLibrary.Crop(spriteIndex, new Rectangle(drawPX, drawPY, drawX, drawY));
-            Vector2 center = new Vector2(newCropped.Width / 2, newCropped.Height / 2);
+            center = new Vector2(newCropped.Width / 2, newCropped.Height / 2);
             spriteBatch.Draw(newCropped, position, size, Color.White, MathHelper.ToRadians(rotation), center, scale, SpriteEffects.None, 0);
         }
 
@@ -84,5 +84,13 @@ namespace Reax {
         public void Heal(int amount) {
             health += amount;
         }
+
+        public BoundingBox getBoundingBox() {
+            Vector3[] boundaryPoints = new Vector3[2];
+            boundaryPoints[0] = new Vector3(position.X - center.X, position.Y + center.Y, 0);
+            boundaryPoints[1] = new Vector3(position.X, position.Y - center.Y, 0);
+            return BoundingBox.CreateFromPoints(boundaryPoints);
+        }
+
     }
 }

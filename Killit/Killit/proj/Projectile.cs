@@ -44,12 +44,13 @@ namespace Reax {
 
         public virtual void Update() {
             pushTo(speed, direction);
+            checkHit();
         }
 
         public virtual void Draw(SpriteBatch spriteBatch) {
             Rectangle size = new Rectangle(0, 0, 8, 8);
             Vector2 center = new Vector2(texture.Width / 2, texture.Height / 2);
-            spriteBatch.Draw(texture, position, Color.White);
+            spriteBatch.Draw(texture, position, Color.Red);
         }
 
         public virtual void loadContent(ContentManager content) {
@@ -69,6 +70,18 @@ namespace Reax {
 
         public double getCreationTime() {
             return creationTime;
+        }
+
+        public void checkHit(){
+            Vector3[] boundaryPoints = new Vector3[2];
+            boundaryPoints[0] = new Vector3(position.X, position.Y, 0);
+            boundaryPoints[1] = new Vector3(position.X + 16, position.Y + 16, 0);
+            BoundingBox.CreateFromPoints(boundaryPoints);
+            foreach (LivingEntity e in game.getEntities().itemsList) {
+                if(shooter != e && e.getBoundingBox().Intersects(BoundingBox.CreateFromPoints(boundaryPoints))){
+                    e.Damage(1);
+                }
+            }
         }
     }
 }
