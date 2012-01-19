@@ -72,7 +72,8 @@ namespace Reax {
             }
             if (mouse.LeftButton == ButtonState.Pressed) {
                 Projectile p;
-                game.projectiles.addItem(p = new Projectile(0.01f, rotation, 10, this, position, "advntur"));
+                double angle = Math.Atan2(mouse.Y - this.position.Y, mouse.X - this.position.X) * 180 / Math.PI;
+                game.projectiles.addItem(p = new Projectile(2f, (float)angle, 10, this, position, game.getGameTime().TotalGameTime.TotalSeconds, "advntur", game));
                 p.loadContent(game.Content);
             }
 

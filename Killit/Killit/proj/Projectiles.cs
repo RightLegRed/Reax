@@ -12,7 +12,6 @@ using Microsoft.Xna.Framework.Media;
 
 namespace Reax {
     class Projectiles {
-        // FUCK DA POLICE
 
         public List<Projectile> itemsList = new List<Projectile>();
         Game1 game;

@@ -13,12 +13,15 @@ using Microsoft.Xna.Framework.Media;
 
 namespace Reax {
     class Projectile {
+
         // Game Related
         private float speed;
         private float direction;
         private int damage;
         private LivingEntity shooter;
         private string projectileName;
+        private double creationTime;
+        public Game1 game;
 
         // Position Related
         private Vector2 originPosition;
@@ -27,15 +30,16 @@ namespace Reax {
 
         // Texture
         Texture2D texture;
-
-        public Projectile(float speed, float direction, int damage, LivingEntity shooter, Vector2 originPosition, string projectileName) {
+        
+        public Projectile(float speed, float direction, int damage, LivingEntity shooter, Vector2 originPosition, double creationTime, string projectileName, Game1 game) {
             this.speed = speed;
             this.direction = direction;
             this.damage = damage;
             this.shooter = shooter;
             this.position = originPosition;
             this.projectileName = projectileName;
-
+            this.creationTime = creationTime;
+            this.game = game;
         }
 
         public virtual void Update() {
@@ -61,6 +65,10 @@ namespace Reax {
 
         public String getProjectileName() {
             return projectileName;
+        }
+
+        public double getCreationTime() {
+            return creationTime;
         }
     }
 }

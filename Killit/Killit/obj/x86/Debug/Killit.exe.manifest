@@ -93,14 +93,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Killit.exe" size="17408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Killit.exe" size="17920">
       <assemblyIdentity name="Killit" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/JLpn8xpBA5eGVcnfcTB0SAu0eg=</dsig:DigestValue>
+        <dsig:DigestValue>S5Q/MvI0MjuH5AxFEHHx2HozxcE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -111,6 +111,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>oh9a96qxN3srFsQjYZCXJV/qDHA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Content\sprites\cursor.xnb" size="1211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dsN8QBl1WZ0/b8fdaGs6uKJpztY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\sprites\healthbar.xnb" size="191">

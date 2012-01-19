@@ -55,6 +55,15 @@
       <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\TestFont.xnb</Output>
       <Time>2012-01-17T00:59:12.5156+00:00</Time>
     </Item>
+    <Item>
+      <Source>sprites\cursor.png</Source>
+      <Name>sprites\cursor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Archelaus\C#\Reax\Killit\Killit\bin\x86\Debug\Content\sprites\cursor.xnb</Output>
+      <Time>2012-01-18T21:43:57.001+00:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

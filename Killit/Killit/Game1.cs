@@ -23,6 +23,7 @@ namespace Reax {
         public HUD hud;
         public Entities entities;
         public Projectiles projectiles;
+        public GameTime gameTime; 
 
         public spriteLib spriteLibrary = new spriteLib();
         public Game1() {
@@ -81,11 +82,15 @@ namespace Reax {
                 this.Exit();
 
             // TODO: Add your update logic here
-
+            this.gameTime = gameTime;
             foreach (LivingEntity i in entities.itemsList.ToList()) {
                 i.Update();
             }
             foreach (Projectile p in projectiles.itemsList.ToList()) {
+                if (gameTime.TotalGameTime.TotalMilliseconds - p.getCreationTime() > 5000) {
+                    projectiles.removeItem(p);
+                    continue;
+                }
                 p.Update();
             }
             hud.Update();
@@ -108,7 +113,7 @@ namespace Reax {
                 p.Draw(spriteBatch);
             }
             hud.Draw(spriteBatch);
-            spriteBatch.DrawString(spriteFont, projectiles.itemsList.Count.ToString(), new Vector2(0, 0), Color.Black);
+            spriteBatch.DrawString(spriteFont, gameTime.TotalGameTime.ToString(), new Vector2(0, 0), Color.Black);
             spriteBatch.End();
             base.Draw(gameTime);
         }
@@ -126,6 +131,10 @@ namespace Reax {
 
         public SpriteFont getSpriteFont() {
             return spriteFont;
+        }
+
+        public GameTime getGameTime() {
+            return gameTime;
         }
 
     }

@@ -4,3 +4,4 @@ Content\sprites\healthbar_out.xnb
 Content\sprites\staminabar.xnb
 Content\sprites\spritesheet.xnb
 Content\sprites\TestFont.xnb
+Content\sprites\cursor.xnb
