@@ -22,9 +22,9 @@ namespace Reax {
 
         public void Initalize() {
             addItem(new Player(new Vector2(50, 50), game));
-            for(int i=1; i<10; i++){
-                addItem(new Monster(new Vector2(50, 10*i), game));
-            }
+            addItem(new Monster(new Vector2(50, 40), game));
+            addItem(new Monster(new Vector2(50, 70), game));
+            addItem(new Monster(new Vector2(50, 130), game));
             
         }
 
