@@ -1,0 +1,10 @@
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\bin\x86\Debug\Reax.exe
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\bin\x86\Debug\Reax.pdb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\bin\x86\Debug\FarseerPhysicsXNA.dll
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\bin\x86\Debug\FarseerPhysicsXNA.pdb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\bin\x86\Debug\FarseerPhysicsXNA.xml
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\obj\x86\Debug\Reax.exe
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\obj\x86\Debug\Reax.pdb
+C:\Users\Archelaus\Documents\Visual Studio 2010\Projects\Refact\Reax\Reax\Reax\bin\x86\Debug\Content\resources\sprites\advntur.xnb
